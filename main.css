@@ -1,0 +1,54 @@
+
+::selection {
+	color: white;
+	background: #F67280;
+}
+
+h1 {
+	color: #16a085;
+	margin: 0;
+}
+
+h2 {
+/*	color: #2A363B;
+*/
+	color: #355C7D
+}
+
+a {
+	color: #16a085;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #F67280;
+}
+
+.about-me {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+	margin: 0 auto;
+
+	width: 50%;
+}
+
+.portrait {
+	width: 200px;
+}
+
+.circle {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
+
+.contact-group {
+	text-align: center;
+	margin: 30px auto;
+	width: 50%;
+}
+
+.contact-group a {
+	padding: 0 15px;
+}
