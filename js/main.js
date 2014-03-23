@@ -8,4 +8,10 @@ $(document).ready(function() {
     	audio.currentTime = 0;
     	audio.play();
 	});
+
+	//Add animated class
+	var fadeInArray = [$('.contact-group'), $('.description')];
+	fadeInArray.forEach(function($elem) {
+		$elem.addClass('animated fadeInUp')
+	})
 });
