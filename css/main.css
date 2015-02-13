@@ -27,8 +27,13 @@ a:visited {
 }
 
 #red-hawk {
-	color: #e74c3c;
+	color: #f09389;
 	width: 50px;
+}
+
+#cratejoy-logo {
+	width: 100px;
+	vertical-align: middle;
 }
 
 .about-me {
