@@ -50,6 +50,7 @@ a:visited {
 
 .portrait {
 	width: 200px;
+	cursor: pointer; /* For the DAMN SON */
 }
 
 .circle {
