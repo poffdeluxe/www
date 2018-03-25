@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $('.portrait').click(function() {
 		audio.currentTime = 0;
-  	audio.play();
+		audio.play();
 	});
 
 	//Add animated class
