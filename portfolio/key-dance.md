@@ -1,7 +1,7 @@
 # Key Dance
 Key Dance is a user-friendly way to encrypt a secret and share it with others using [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm.
 
-This webapp is a work-in-progress collaboration with a friend who wanted a way to keep Ethereum private keys safe but accesible in the case of end-of-life planning. While Shamir's Secret Sharing is not a super new algorithm, there aren't many websites that have easy-to-use encoding and decoding functions.
+This webapp is a work-in-progress collaboration with a friend who wanted a way to keep Ethereum private keys safe but accessible in the case of end-of-life planning. While Shamir's Secret Sharing is not a super new algorithm, there aren't many websites that have easy-to-use encoding and decoding functions.
 
 When creating a secret to share, the user enters the secret text (like a Bitcoin or Ethereum private key, for example), the number of shares to break the secret into, and the number of shares required to unlock the secret. After the user submits the form, the key for each share is displayed as well as a QR code corresponding to each share. Each QR code can be printed out and distributed.
 
