@@ -1,15 +1,20 @@
 # Selected Side Projects
 The following is a list of a few side projects I've worked on over the last few years that I am proud of.
 
-## Governed
-Mobile app to foster civil engagement and connection with a voter's representatives. Written in Javascript using the React Native framework and Firebase for the backend.
+## state-fin-(api|ingest)
+Very simple system built to ingest campaign finance reports at the state legislature level written in python for both the ingest system and the API. Uses Elasticsearch to store and aggregate the contribution data.
 
-[More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/governed.md)
+[More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/state-fin-ingest.md)
 
 ## Key Dance
 User-friendly interface to make use of [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm for encoding and distributing secrets. Written in Javascript using React.
 
 [More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/key-dance.md)
+
+## Governed
+Mobile app to foster civil engagement and connection with a voter's representatives. Written in Javascript using the React Native framework and Firebase for the backend.
+
+[More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/governed.md)
 
 ## eth-ql
 Simple GraphQL bindings for the Ethereum blockchain. Written in Javascript using Node.js.
