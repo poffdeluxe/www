@@ -10,9 +10,9 @@
 		<link rel="icon" href="media/favicon.ico" type="image/x-icon">
 
 		<link rel="stylesheet" href="css/animate.css">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bubble.css">
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107288851-1"></script>
 		<script>
@@ -28,16 +28,30 @@
 		<div class="about-me">
 			<img class="circle portrait" src="//www.gravatar.com/avatar/82dd07645b21c43f6369eb3bbaf89213.png?s=200" />
 			<h1>Poff Poffenberger</h1>
-			<h2 class="description">is a full-stack software developer, VR dev hobbyist, food triad thought leader, and <a href="http://tonx.org/u/poffdeluxe" target="_blank">coffee fan</a>.</h2>
-			<br>
+			<h2>is a full-stack software developer, VR dev hobbyist, food triad thought leader, and <a href="http://tonx.org/u/poffdeluxe" target="_blank">coffee fan</a>.</h2>
+			<h2>
+				Here are some things I know:
+			</h2>
+			<svg id="bubble-boy"
+  viewBox="0 0 600 600"></svg>
+  			<h2 class="close">
+				... and more!
+			</h2>
 			<h2 class="description">For a breakdown of a few selected side projects, <a href="https://github.com/poffdeluxe/www/blob/master/portfolio/README.md" target="_blank">check this out</a>.</h2>
 		</div>
 
+		<hr>
+
 		<div class="contact-group">
-			<a href="mailto:poffdeluxe+www@gmail.com" target="_blank" rel="noopener"><i class="fa fa-envelope fa-5x"></i></a>
-			<a href="https://github.com/poffdeluxe" target="_blank" rel="noopener"><i class="fa fa-github-alt fa-5x"></i></a>
-			<a href="https://codepen.io/poffdeluxe/" target="_blank" rel="noopener"><i class="fa fa-codepen fa-5x"></i></a>
+			<a href="mailto:poffdeluxe+www@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope fa-5x"></i></a>
+			<a href="https://www.linkedin.com/in/poff-poffenberger-b4321029" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-5x"></i></a>
+			<a href="https://github.com/poffdeluxe" target="_blank" rel="noopener"><i class="fab fa-github-alt fa-5x"></i></a>
+			<a href="https://codepen.io/poffdeluxe/" target="_blank" rel="noopener"><i class="fab fa-codepen fa-5x"></i></a>
 		</div>
 
 		<script src="js/main.js"></script>
+		<script src="https://d3js.org/d3.v6.js"></script>
+		<script src="https://kit.fontawesome.com/a0e3ea95c7.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"></script>
+		<script src="js/bubble.js"></script>
 </html>

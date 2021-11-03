@@ -1,0 +1,25 @@
+#bubble-boy {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 600px;
+}
+
+#bubble-boy text {
+  text-align: center;
+  font-weight: bold;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+#bubble-boy text.brands-icon {
+ font-family: "Font Awesome 5 Brands";
+}
+
+#bubble-boy text.free-icon {
+  font-family: "Font Awesome 5 Free";
+} 
+
+#bubble-boy text.tech-label {
+  font-family: "Open Sans", sans-serif;
+}
