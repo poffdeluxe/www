@@ -18,7 +18,7 @@ const typeToIcon = {
   sketch: {content: '\uf7c6', family: 'brands'},
   css: {content: '\uf38b', family: 'brands'},
   server: {content: '\uf233', family: 'free'},
-  flask: {content: '\uf0c3', family: 'free'},
+  elixir: {content: '\uf0c3', family: 'free'},
 };
 
 const data = [
@@ -38,7 +38,7 @@ const data = [
     name: 'Elixir',
     score: 7,
     type: 'language',
-    icon: 'javascript',
+    icon: 'elixir',
   },
   {
     name: 'PostgreSQL',
