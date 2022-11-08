@@ -1,5 +1,5 @@
 # Governed
-Governed is a mobile app to foster civil engagement and connection with a voter's representatives. The Governed website is located [here](http://www.governed.io/). Governed is still published and available on both Google Play as well as the iOS App Store.
+Governed is a mobile app to foster civil engagement and connection with a voter's representatives. While unfortunately no longer available, the app was deployed on both Google Play and the iOS app stores.
 
 When a user opens the app for the first time, they are prompted to enter their address. Using that address, the user's congressional representatives are calculated. From the home screen, users can view information regarding their reps or choose to get in contact with them. In the contact flow, the user can call, fax, or dispatch a snail mail letter to their rep. If the fax or snail mail option is selected, a short letter can be typed and then previewed before sending.
 

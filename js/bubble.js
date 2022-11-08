@@ -18,6 +18,7 @@ const typeToIcon = {
   sketch: {content: '\uf7c6', family: 'brands'},
   css: {content: '\uf38b', family: 'brands'},
   server: {content: '\uf233', family: 'free'},
+  flask: {content: '\uf0c3', family: 'free'},
 };
 
 const data = [
@@ -30,6 +31,12 @@ const data = [
   {
     name: 'JavaScript',
     score: 10,
+    type: 'language',
+    icon: 'javascript',
+  },
+  {
+    name: 'Elixir',
+    score: 7,
     type: 'language',
     icon: 'javascript',
   },
@@ -94,7 +101,7 @@ const data = [
   },
   {
     name: 'k8s',
-    score: 2,
+    score: 4,
     type: 'tool',
     icon: 'server',
   },
@@ -106,7 +113,7 @@ const data = [
   },
   {
     name: 'GCP',
-    score: 3,
+    score: 7,
     type: 'tool',
     icon: 'server',
   },

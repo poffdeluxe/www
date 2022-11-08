@@ -1,5 +1,5 @@
 # Selected Side Projects
-The following is a list of a few side projects I've worked on over the last few years that I am proud of.
+The following is a list of a few side projects (projects outside of my day job) I've worked on over the last few years that I am proud of.
 
 ## state-fin-(api|ingest)
 Very simple system built to ingest campaign finance reports at the state legislature level written in python for both the ingest system and the API. Uses Elasticsearch to store and aggregate the contribution data.
@@ -7,7 +7,7 @@ Very simple system built to ingest campaign finance reports at the state legisla
 [More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/state-fin-ingest.md)
 
 ## Key Dance
-User-friendly interface to make use of [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm for encoding and distributing secrets. Written in Javascript using React.
+User-friendly interface to make use of [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm for encoding and distributing secrets. Secrets can be reconstructed using a webcam! Written in Javascript using React.
 
 [More Info](https://github.com/poffdeluxe/www/blob/master/portfolio/key-dance.md)
 
