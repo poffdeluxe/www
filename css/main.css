@@ -3,6 +3,10 @@
 	background: #F67280;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 hr {
 	margin-left: auto;
 	margin-right: auto;
@@ -64,9 +68,28 @@ a:visited {
 	padding-right: 5px;
 }
 
+.writing {
+	margin: 0 auto;
+
+	padding: 50px;
+
+	width: 70%;
+}
+
+.writing h1 {
+	color: #343434;
+}
+
+.writing li {
+	font-size: 24px;
+}
+
+.writing li + li {
+	margin-top: 15px;
+}
+
 .about-me {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 
 	margin: 0 auto;
 
