@@ -7,5 +7,5 @@ This project was also an excellent way to get acquainted with the [Fast API](htt
 
 The repo for the ingest system can be found [here](https://github.com/poffdeluxe/state-fin-ingest) and the repo for the API can be found [here](https://github.com/poffdeluxe/state-fin-api).
 
-A live demo (with old contribution data) can be found at: https://state-fin-api.herokuapp.com/
-Thanks to Fast API, interactive documentation is automatically generated: https://state-fin-api.herokuapp.com/docs
+~A live demo (with old contribution data) can be found at: https://state-fin-api.herokuapp.com/
+Thanks to Fast API, interactive documentation is automatically generated: https://state-fin-api.herokuapp.com/docs~ Unfortunately, the hosted application on Heroku is no longer available since Heroku removed their free tier :(
