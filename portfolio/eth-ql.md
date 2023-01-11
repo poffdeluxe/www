@@ -7,7 +7,7 @@ At the moment, queries are limited to pulling information for blocks, transactio
 
 The code is open source and available here: [https://github.com/poffdeluxe/eth-ql](https://github.com/poffdeluxe/eth-ql)
 
-To try it out, a demo is available using Graphiql here: https://eth-ql.herokuapp.com/graphiql
-or if you want to try it out with a sample query: https://eth-ql.herokuapp.com/graphiql?query=%7B%0A%20latestBlock%20%7B%0A%20%20%20id%2C%0A%20%20%20number%2C%0A%20%20%20timestamp%2C%0A%20%20%20miner%2C%0A%20%20%20transactions%20%7B%0A%20%20%20%20%20from%2C%20to%0A%20%20%20%7D%0A%20%7D%0A%7D
+~To try it out, a demo is available using Graphiql here: https://eth-ql.herokuapp.com/graphiql
+or if you want to try it out with a sample query: https://eth-ql.herokuapp.com/graphiql?query=%7B%0A%20latestBlock%20%7B%0A%20%20%20id%2C%0A%20%20%20number%2C%0A%20%20%20timestamp%2C%0A%20%20%20miner%2C%0A%20%20%20transactions%20%7B%0A%20%20%20%20%20from%2C%20to%0A%20%20%20%7D%0A%20%7D%0A%7D~ Unfortunately, the hosted application on Heroku is no longer available since Heroku removed their free tier :(
 
 ![eth-ql](images/eth-ql.png)
